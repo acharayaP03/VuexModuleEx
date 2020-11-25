@@ -5,5 +5,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  computed: {
+    posts() {
+      return this.$store.state.blog.posts;
+    },
+  },
+};
 </script>
