@@ -31,14 +31,6 @@ const store = new Vuex.Store({
     blog: BlogModule,
     user: UserModule,
   },
-  state: {
-    isLoggedIn: false,
-  },
-  getters: {
-    isLoggedIn(state) {
-      return state.isLoggedIn;
-    },
-  },
 });
 
 new Vue({
